@@ -1,0 +1,180 @@
+.background-white {
+  background-color: green !important;
+}
+body {
+  background-color: lightblue;
+  color: #ef3d17;
+}
+.myapp {
+  display: flex;
+  height: 100%;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  margin: 40px;
+  flex: 70%;
+  background-color: #ffffff;
+}
+.mline {
+  margin: 0px;
+}
+.tline {
+  padding-left: 30px;
+}
+.table {
+  padding: 40px;
+  margin: 20px;
+}
+.user-table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.hu {
+  margin-left: 60px;
+  margin-right: 270px;
+  color: #808080;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.he {
+  margin-right: 300px;
+  color: #808080;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin-top: 8px;
+}
+.h {
+  color: #808080;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.h1,
+h1 {
+  color: #272727;
+  font-family: "Lato", sans-serif;
+  font-size: 38px;
+  font-weight: bolder;
+  padding: 40px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.btns {
+  /* display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center; */
+  padding: 30px;
+  font-weight: bold;
+}
+
+.oneBtn {
+  display: block;
+  align-self: flex-end;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  align-items: center;
+  width: 90%;
+  height: 54px;
+  text-align: center;
+  display: table-cell;
+  padding: 10px;
+  background-color: #226cfc;
+  color: white;
+  border: none;
+}
+.oneBtn2 {
+  display: block;
+  align-self: flex-end;
+  border-radius: 14px;
+  margin-bottom: 20px;
+  align-items: center;
+  width: 90%;
+  height: 54px;
+  text-align: center;
+  display: table-cell;
+  padding: 10px;
+  background-color: #e8f0ff;
+  color: #226cfc;
+  border: none;
+}
+
+.sideBar {
+  padding: 20px;
+  background-color: #ffffff;
+  flex: 10%;
+  height: 100%;
+  height: 100%;
+}
+.upper-sidebar {
+  /* padding: 30px; */
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+}
+.h2,
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.profileLink {
+  text-decoration: none;
+
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.dots {
+  margin-right: 40px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

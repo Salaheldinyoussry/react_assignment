@@ -1,0 +1,18 @@
+.menue {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.icon {
+  margin-right: 30px;
+}
+.link {
+  color: #272727;
+  text-decoration: none;
+
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
